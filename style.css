@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #779611;
+}
+header {
+    background-color: white;
+    color: #779611;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ffffff;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+footer a {
+    text-decoration: none;
+    color: #707070;
+    margin-left: 15px;
+}
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+.main-section .content {
+    max-width: 600px;
+}
+.main-section h1 {
+    font-size: 36px;
+    color:#779611;
+}
+.main-section p {
+    font-size: 18px;
+    color: #000000;
+}
+.main-section .shop-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #779611;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.main-section img {
+    max-width: 300px;
+    margin-left: 50px;
+}
+.ingredients {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+}
+.ingredient {
+    text-align: center;
+    font-size: 16px;
+}
+.ingredient img {
+    max-width: 700px;
+}
